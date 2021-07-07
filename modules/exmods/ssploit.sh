@@ -13,5 +13,6 @@ echo -e "${NC}"
 cd /opt/shodansploit
 sudo python shodansploit.py
 sleep 2
-cd /opt/sifter
-sifter -m
+
+
+##########################______________ VGhlIERlYWQgQnVubnkgQ2x1Yg== ______________##########################

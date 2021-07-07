@@ -6,16 +6,16 @@ W='\033[1;37m'
 YLW='\033[1;33m'
 LBBLUE='\e[104m'
 nikto_multi(){
-	for name in `cat files/pingtest.pass`
+	for name in `cat /opt/sifter/files/pingtest.pass`
         do
 			nikto -host http://${name} | tee /opt/sifter/results/Nikto/${name}.txt
 		done
 }
 nikto_single(){
 	echo -e "${YLW}"
-	cat pingtest.pass
+	cat /opt/sifter/files/pingtest.pass
 	echo -e "${NC}"
-	echo -e "${W}Please enter your target.${NC}"
+	echo -e "${W}Please enter your target. (without webmask 'http://' protocol)${NC}"
 	read TARGET
 	sleep 1
 	nikto -host http://${TARGET} | tee /opt/sifter/results/Nikto/${TARGET}.txt
@@ -39,5 +39,6 @@ fi
 echo "==============================================================================================="
 echo -e "${RED}Results have been saved to /opt/sifter/results/Nikto${NC}"
 echo "==============================================================================================="
-cd /opt/sifter
-sifter -m
+
+
+##########################______________ VGhlIERlYWQgQnVubnkgQ2x1Yg== ______________##########################

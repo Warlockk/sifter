@@ -1,0 +1,33 @@
+@Codename: Violet
+# Additions
+
+@Version : 12
+
+	*hahwul | Phoenix - hahwul's webtools
+
+	*ScriptHunter - Hunts for JavaScript within websites
+
+	*TorBot - Onion URL info gatherer & crawler
+
+	*TacticalEK - Tactical exploitation toolkit to assist penetration testers during their assignments.
+
+	*GitSearch - Tool to search git from CLI and clone (if required)
+
+	*Mitre-Attack Website - Provides basic navigation and annotation of ATT&CK matrices
+
+
+# Released Plugins
+	@G - GUI Overlay
+        	- https://github.com/Sifter-Ex/gPlug
+	@F - DanderFuzz Exploitational Framework
+        	- https://github.com/Sifter-Ex/fPlug
+	@M - Malware Analysis Plugin
+ 	    	- https://github.com/Sifter-Ex/mPlug
+	@C - CobaltStrike Framework Plugin
+		- https://github.com/Sifter-Ex/cPlug
+
+
+# Check for tool updates?
+
+[✔] Critical.   (Needed to install new tools)
+[ ] Not needed. (Unless you want to check for tool updates)

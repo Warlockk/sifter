@@ -13,9 +13,10 @@ else
 	mkdir /opt/sifter/results/OneFind
 fi
 cd /opt/onedrive_user_enum
-echo -e "${ORNG}"
+echo -e "${RED}"
 figlet -f mini "OneFind"
-echo -e "${NC}"
+echo -e "${ORNG}This tool is used to enumarate OneDrive Users${NC}"
+sleep 3
 echo -e "${W}Would you like to search for a single user or use a user list?(s/l)${NC}"
 read UANS
 if [[ ${UANS} == "s" ]]; then
@@ -29,7 +30,8 @@ else
 fi
 echo -e "${W}Please enter the domain to enumerate against${NC}"
 read DOMAIN
-python onedrive_enum.py ${TARG} ${TARGET} -d ${DOMAIN} -o /opt/sifter/results/OneFind/${TARGET}_enum.log
+python onedrive_enum.py ${TARGET} -d ${DOMAIN} -o /opt/sifter/results/OneFind/${TARGET}_enum.log
 echo "==============================================================================================="
-cd /opt/sifter
-./sifter -m
+
+
+##########################______________ VGhlIERlYWQgQnVubnkgQ2x1Yg== ______________##########################

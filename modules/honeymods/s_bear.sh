@@ -23,5 +23,5 @@ cd ../Client
 echo -e "${YLW}Starting SniffingBear Client${NC}"
 sudo python Client.py
 sleep 10
-cd /opt/sifter
-sifter -m
+
+##########################______________ VGhlIERlYWQgQnVubnkgQ2x1Yg== ______________##########################

@@ -49,5 +49,6 @@ echo -e "${W}===================================================================
 sudo python3 serlock.py --verbose ${RANK} -fo /opt/sifter/results/Sherlock ${TOR} --csv --timeout ${TOUT} ${PFOUND} '${USER}'
 echo -e "${YLW}Results have been saved to /opt/sifter/results/Sherlock"
 echo -e "${W}===========================================================================${NC}"
-cd /opt/sifter
-sifter -m
+
+
+##########################______________ czFsM250NzggX18gUmFiYjE3J3MgRGVu ______________##########################

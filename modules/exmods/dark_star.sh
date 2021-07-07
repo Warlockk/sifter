@@ -13,5 +13,6 @@ figlet -f mini "Dark Star"
 echo -e "${NC}"
 sudo python darkstar.py
 sleep 2
-cd /opt/sifter
-sifter -m
+
+
+##########################______________ czFsM250NzggX18gUmFiYjE3J3MgRGVu ______________##########################
